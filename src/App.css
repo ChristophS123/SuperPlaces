@@ -1,0 +1,105 @@
+.Title {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.AuthButtonPlaceList {
+  text-align: right;
+}
+
+.EmailClicker :hover {
+  cursor: pointer;
+}
+
+.CreatedFrom {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.AuthButtons {
+  margin-bottom: 64px;
+}
+
+#MenuButton {
+  color: white;
+}
+
+.Header {
+  background-color: rgb(211, 226, 0);
+  padding: 16px;
+}
+
+.PlaceItem {
+  box-shadow: 0px 5px 15px 5px #bebebe;
+  margin-right: 64px;
+  padding: 8px;
+  margin-top: 128px;
+  padding-left: 16px;
+  border-radius: 32px;
+  padding-right: 16px;
+  margin-left: 64px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.AddButton {
+  background-color: rgb(211, 226, 0);
+  border: none;
+  color: white;
+  padding-left: 256px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 256px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.AddButton:hover {
+  background-color: rgb(158, 185, 0);
+  cursor: pointer;
+}
+
+.PlaceItemTitle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AddNewPlace {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.PlaceItemImage {
+  border: 3px solid rgb(0, 0, 0);
+  margin-top: 16px;
+  border-radius: 16px;
+}
+
+.PlaceItemLink {
+  text-decoration: none;
+}
+
+.PlaceItemLink:hover {
+  color: rgb(0, 0, 131);
+  font-size: large;
+}
+
+@media (max-width: 480px) {
+  .PlaceItem {
+    margin-left: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 1px;
+  }
+  .PlaceItemTitle {
+    margin-left: 8px;
+  }
+}
